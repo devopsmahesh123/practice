@@ -12,7 +12,7 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {
-    // Add custom rules here
+    'react/react-in-jsx-scope': 'off', // 👈 disables the outdated rule
   },
   settings: {
     react: {
